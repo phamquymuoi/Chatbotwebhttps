@@ -1,0 +1,291 @@
+﻿@page "/chat"
+@rendermode InteractiveServer
+@using System.Net.Http.Json
+@inject IHttpClientFactory HttpClientFactory
+@inject IJSRuntime JS
+
+<style>
+    body {
+        background-color: #f5f5f5;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+        margin: 0;
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .chat-container {
+        display: flex;
+        flex-direction: column;
+        height: 100vh;
+        max-width: 800px;
+        margin: 0 auto;
+        background-color: #ffffff;
+        border-radius: 8px;
+        overflow: hidden;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    }
+
+    .chat-messages {
+        flex: 1;
+        overflow-y: auto;
+        padding: 20px;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        background-color: #f8f9fa;
+    }
+
+        .chat-messages:empty + .input-container {
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            border-top: none;
+        }
+
+        .chat-messages::-webkit-scrollbar {
+            width: 8px;
+        }
+
+        .chat-messages::-webkit-scrollbar-thumb {
+            background: #ccc;
+            border-radius: 4px;
+        }
+
+    .user-message, .bot-message {
+        max-width: 70%;
+        padding: 12px 16px;
+        border-radius: 12px;
+        line-height: 1.5;
+        position: relative;
+        word-wrap: break-word;
+    }
+
+    .user-message {
+        align-self: flex-end;
+        background-color: #007bff;
+        color: white;
+        margin-left: 10%;
+        border-bottom-right-radius: 4px;
+    }
+
+    .bot-message {
+        align-self: flex-start;
+        background-color: #e9ecef;
+        color: #333;
+        margin-right: 10%;
+        border-bottom-left-radius: 4px;
+    }
+
+    .message-timestamp {
+        font-size: 0.75rem;
+        color: #6c757d;
+        margin-top: 4px;
+        text-align: right;
+    }
+
+    .bot-message .message-timestamp {
+        text-align: left;
+    }
+
+    .input-container {
+        display: flex;
+        flex-direction: column;
+        padding: 16px;
+        border-top: 1px solid #e9ecef;
+        background-color: #ffffff;
+        gap: 10px;
+        align-items: center;
+    }
+
+        .input-container input {
+            width: 100%;
+            max-width: 700px;
+            padding: 12px;
+            border: 1px solid #ced4da;
+            border-radius: 20px;
+            font-size: 1rem;
+            outline: none;
+            transition: border-color 0.2s;
+        }
+
+            .input-container input:focus {
+                border-color: #007bff;
+            }
+
+        .input-container button {
+            padding: 8px 16px;
+            border-radius: 20px;
+            font-size: 0.9rem;
+            background-color: #6c757d;
+            border: none;
+            color: white;
+            transition: background-color 0.2s;
+        }
+
+            .input-container button:hover {
+                background-color: #5a6268;
+            }
+
+    .alert-warning {
+        margin: 20px;
+        padding: 10px;
+        border-radius: 8px;
+        background-color: #fff3cd;
+        color: #856404;
+        text-align: center;
+    }
+
+    .loading {
+        align-self: flex-start;
+        color: #6c757d;
+        font-style: italic;
+    }
+</style>
+
+<div class="chat-container">
+    @if (!isConnected)
+    {
+        <div class="alert alert-warning">Mất kết nối với API. Vui lòng kiểm tra lại.</div>
+    }
+    <div class="chat-messages" id="chatMessages">
+        @if (isLoading)
+        {
+            <div class="bot-message loading">
+                <span class="spinner-border spinner-border-sm" role="status"></span> Đang xử lý...
+            </div>
+        }
+        @foreach (var message in Messages)
+        {
+            <div class="@(message.IsUser ? "user-message" : "bot-message")">
+                @message.Text
+                <div class="message-timestamp">@message.Timestamp.ToString("HH:mm")</div>
+            </div>
+        }
+    </div>
+    <div class="input-container">
+        <input type="text" @bind="userInput" @onkeydown="@(e => e.Key == "Enter" ? SendMessage() : null)" placeholder="Nhập câu hỏi của bạn..." />
+        <button @onclick="ClearMessages">Xóa lịch sử hỏi đáp</button>
+    </div>
+</div>
+
+@code {
+    private List<Message> Messages = new();
+    private string userInput = "";
+    private bool isLoading = false;
+    private bool isConnected = true;
+
+    private class Message
+    {
+        public string Text { get; set; } = string.Empty;
+        public bool IsUser { get; set; }
+        public DateTime Timestamp { get; set; } = DateTime.Now;
+    }
+
+    private class ChatResponse
+    {
+        public string response { get; set; } = string.Empty;
+    }
+
+    private class HistoryItem
+    {
+        public string user { get; set; } = string.Empty;
+        public string? bot { get; set; }
+    }
+
+    protected override async Task OnInitializedAsync()
+    {
+        try
+        {
+            var client = HttpClientFactory.CreateClient("ChatbotApi");
+            var history = await client.GetFromJsonAsync<List<HistoryItem>>("/history");
+            if (history != null)
+            {
+                Messages.AddRange(history.Select(h => new Message { Text = h.user, IsUser = true, Timestamp = DateTime.Now }));
+                Messages.AddRange(history.Where(h => h.bot != null).Select(h => new Message { Text = h.bot, IsUser = false, Timestamp = DateTime.Now }));
+            }
+            StateHasChanged();
+            await ScrollToBottom();
+        }
+        catch (Exception ex)
+        {
+            Console.WriteLine($"Error loading history: {ex.Message}");
+        }
+    }
+
+    protected override async Task OnAfterRenderAsync(bool firstRender)
+    {
+        if (firstRender)
+        {
+            await ScrollToBottom();
+            Console.WriteLine("Initial scrollToBottom called");
+        }
+    }
+
+    private async Task SendMessage()
+    {
+        if (!string.IsNullOrWhiteSpace(userInput))
+        {
+            Console.WriteLine($"Sending message: {userInput}");
+            Messages.Add(new Message { Text = userInput, IsUser = true, Timestamp = DateTime.Now });
+            isLoading = true;
+            isConnected = true;
+            StateHasChanged();
+
+            try
+            {
+                var client = HttpClientFactory.CreateClient("ChatbotApi");
+                var request = new { message = userInput };
+                Console.WriteLine("Calling API...");
+                var response = await client.PostAsJsonAsync("/chat", request);
+                Console.WriteLine($"API Status: {response.StatusCode}");
+                response.EnsureSuccessStatusCode();
+                var result = await response.Content.ReadFromJsonAsync<ChatResponse>();
+                Console.WriteLine($"API Response: {result?.response}");
+                Messages.Add(new Message { Text = result?.response ?? "Không nhận được phản hồi từ API", IsUser = false, Timestamp = DateTime.Now });
+            }
+            catch (HttpRequestException ex)
+            {
+                isConnected = false;
+                Console.WriteLine($"HTTP Error: {ex.Message}, Status: {ex.StatusCode}");
+                Messages.Add(new Message { Text = $"Lỗi khi gọi API: {ex.Message}", IsUser = false, Timestamp = DateTime.Now });
+            }
+            catch (Exception ex)
+            {
+                isConnected = false;
+                Console.WriteLine($"General Error: {ex.Message}");
+                Messages.Add(new Message { Text = $"Lỗi: {ex.Message}", IsUser = false, Timestamp = DateTime.Now });
+            }
+
+            isLoading = false;
+            userInput = "";
+            StateHasChanged();
+            await ScrollToBottom();
+            Console.WriteLine("scrollToBottom called after message");
+        }
+        else
+        {
+            Console.WriteLine("Empty input detected");
+        }
+    }
+
+    private void ClearMessages()
+    {
+        Messages.Clear();
+        StateHasChanged();
+    }
+
+    private async Task ScrollToBottom()
+    {
+        try
+        {
+            await JS.InvokeVoidAsync("scrollToBottom", "chatMessages");
+        }
+        catch (Exception ex)
+        {
+            Console.WriteLine($"JS Interop Error: {ex.Message}");
+        }
+    }
+}

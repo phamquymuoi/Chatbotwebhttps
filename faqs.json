@@ -1,0 +1,134 @@
+[
+  {
+    "questions": [
+      "Ai được phép ở Ký túc xá (KTX) của Trường Đại học Sư phạm - Đại học Đà Nẵng?",
+      "Điều kiện để thuê phòng KTX là gì?",
+      "Những đối tượng nào được ưu tiên ở KTX?"
+    ],
+    "answer": "Ký túc xá (KTX) dành cho sinh viên chính quy năm 1-3, sinh viên năm 4 thuộc đối tượng chính sách hoặc hoàn cảnh khó khăn, và lưu học sinh. Ưu tiên lưu học sinh, sinh viên hộ nghèo, dân tộc thiểu số, hoặc tàn tật. Sinh viên đăng ký qua Phòng Công tác Sinh viên (CTSV). Sinh viên yếu thế (tàn tật, mồ côi, dân tộc thiểu số nghèo) được miễn phí KTX. Nguồn: Quyết định 1042/QĐ-ĐHSP, Điều 3.",
+    "tag": "KTXEligibility"
+  },
+  {
+    "questions": [
+      "Đối tượng 01 cần minh chứng gì để được ưu tiên?",
+      "Khu vực ưu tiên trong tuyển sinh được quy định như thế nào?",
+      "Thí sinh làm gì để được hưởng ưu tiên khu vực?"
+    ],
+    "answer": "Đối tượng 01 (người dân tộc thiểu số, thường trú trên 18 tháng tại Khu vực 1) cần giấy khai sinh hoặc quyết định xác định dân tộc và thông tin thường trú từ Bộ Công an. Khu vực ưu tiên (KV1) gồm các xã khó khăn, vùng dân tộc, miền núi, bãi ngang ven biển, hải đảo, hoặc thuộc Chương trình 135. Thí sinh khai báo thông tin thường trú trên Hệ thống http://thisinh.thitotnghiepthpt.edu.vn trước 17h00 ngày 28/7/2025, nộp minh chứng theo Phụ lục IX, và xuất trình bản chính khi nhập học. Nguồn: Hướng dẫn 2457 (Trang 3).",
+    "tag": "PriorityEligibility"
+  },
+  {
+    "questions": [
+      "Quy trình đăng ký xét tuyển đại học năm 2025 là gì?",
+      "Thí sinh tự do đăng ký xét tuyển như thế nào?",
+      "Thí sinh xét tuyển thẳng cần chuẩn bị gì?"
+    ],
+    "answer": "Tất cả thí sinh đăng ký xét tuyển trực tuyến tại http://thisinh.thitotnghiepthpt.edu.vn hoặc Cổng dịch vụ công quốc gia, xếp nguyện vọng theo thứ tự ưu tiên, hoàn thành trước 17h ngày 28/7/2025. Thí sinh tự do nộp phiếu đăng ký (Phụ lục VI) tại điểm tiếp nhận từ 10/7 đến 20/7/2025 để nhận tài khoản. Thí sinh xét tuyển thẳng nộp hồ sơ (Phụ lục IV/V) trước 17h ngày 30/6/2025, nhận thông báo trúng tuyển trước 15/7/2025, và đăng ký nguyện vọng trên Hệ thống. Nguồn: Hướng dẫn 2457 (Trang 1-2), Kế hoạch 1363 (Trang 4-5).",
+    "tag": "AdmissionRegistration"
+  },
+  {
+    "questions": [
+      "Lịch trình tuyển sinh đại học năm 2025 diễn ra khi nào?",
+      "Thời gian nộp lệ phí xét tuyển và xét tuyển bổ sung là khi nào?"
+    ],
+    "answer": "Thí sinh đăng ký và điều chỉnh nguyện vọng từ 16/7 đến 17h ngày 28/7/2025. Nộp lệ phí xét tuyển từ 29/7 đến 17h ngày 5/8/2025. Xét tuyển trên Hệ thống từ 7h ngày 13/8 đến 17h ngày 20/8/2025. Xét tuyển bổ sung từ 1/9 đến tháng 12/2025. Thí sinh xác nhận nhập học trước 17h ngày 30/8/2025. Nguồn: Hướng dẫn 2457 (Trang 2-3), Kế hoạch 1363 (Trang 5-6).",
+    "tag": "AdmissionTimeline"
+  },
+  {
+    "questions": [
+      "Học phí các ngành tại Trường Đại học Sư phạm năm 2025 là bao nhiêu?",
+      "Sinh viên Sư phạm có được miễn học phí không?",
+      "Học phí cả khóa được tính như thế nào?"
+    ],
+    "answer": "Học phí phụ thuộc vào khối ngành: Khối IV, VII (Báo chí, Văn học, Hóa học, Tâm lý học, v.v.) là 326.000 VNĐ/tín chỉ (10.595.000 VNĐ/năm, 42.380.000 VNĐ/khóa); Khối V (Công nghệ thông tin, Khoa học dữ liệu, Vật lý kỹ thuật) là 391.000 VNĐ/tín chỉ (12.707.500 VNĐ/năm, 50.830.000 VNĐ/khóa); Công nghệ Sinh học, Khoa học môi trường, Vật lý học là 441.000 VNĐ/tín chỉ (14.332.500 VNĐ/năm, 57.330.000 VNĐ/khóa). Sinh viên Sư phạm theo Nghị định 116 được miễn học phí và nhận trợ cấp 3.620.000 VNĐ/tháng. Tổng tín chỉ mỗi khóa là 130 (32.5 tín chỉ/năm). Học phí có thể tăng 10%. Kiểm tra http://ued.udn.vn. Nguồn: Thông báo học phí kỳ II 2024-2025, Nghị định 116/2020/NĐ-CP.",
+    "tag": "TuitionFees"
+  },
+  {
+    "questions": [
+      "Học phí cho lưu học sinh tại Trường Đại học Sư phạm là bao nhiêu?",
+      "Lưu học sinh có được hỗ trợ gì khi ở KTX?"
+    ],
+    "answer": "Lưu học sinh đóng học phí cao hơn sinh viên trong nước, tùy chương trình, nhưng mức cụ thể cần liên hệ Phòng CTSV hoặc Phòng Đào tạo. Lưu học sinh được ưu tiên ở KTX và có thể được miễn nội trú phí nếu thuộc diện yếu thế. Kiểm tra http://ued.udn.vn. Nguồn: Quyết định 1042/QĐ-ĐHSP, Điều 3-4.",
+    "tag": "InternationalStudentFees"
+  },
+  {
+    "questions": [
+      "Nội quy KTX của Trường Đại học Sư phạm quy định gì?",
+      "Sinh viên vi phạm nội quy KTX bị xử lý như thế nào?"
+    ],
+    "answer": "Nội quy KTX yêu cầu tuân thủ giờ mở cổng (05:00-23:00 cổng chính, 05:00-22:00 cổng phụ), giữ vệ sinh, tiết kiệm điện nước, cấm nấu ăn (trừ phòng được phép), uống rượu, hút thuốc, đánh bạc, gây rối, phá hoại tài sản. Vi phạm nghiêm trọng (tàng trữ chất cấm, gây rối, không nộp phí) có thể bị buộc rời KTX, chấm dứt hợp đồng, không hoàn tiền thế chấp. Nguồn: Quyết định 1042/QĐ-ĐHSP, Điều 3-6, 8-10.",
+    "tag": "KTXRegulations"
+  },
+  {
+    "questions": [
+      "Phí ở KTX của Trường Đại học Sư phạm là bao nhiêu?",
+      "Sinh viên yếu thế có được miễn phí KTX không?"
+    ],
+    "answer": "Sinh viên nộp nội trú phí và tiền điện nước hàng tháng qua Phòng Kế hoạch Tài chính (mức phí cụ thể liên hệ Phòng CTSV). Sinh viên yếu thế (tàn tật, mồ côi, dân tộc thiểu số nghèo) được miễn phí KTX và ưu tiên chỗ ở. Nguồn: Quyết định 1042/QĐ-ĐHSP, Điều 2, 8.",
+    "tag": "KTXCosts"
+  },
+  {
+    "questions": [
+      "Quy trình xét tuyển học bạ năm 2025 diễn ra như thế nào?",
+      "Thí sinh cần làm gì để rà soát điểm học bạ?"
+    ],
+    "answer": "Xét tuyển học bạ năm 2025 không yêu cầu nộp hồ sơ giấy; kết quả học bạ được cập nhật trực tiếp trên Hệ thống của Bộ GDĐT. Thí sinh phối hợp với Sở GDĐT để rà soát, sửa sai điểm học bạ trước 17h ngày 6/6/2025. Tham gia nhóm Zalo https://zalo.me/g/ycbcwtx761 để nhận hướng dẫn. Nguồn: Hướng dẫn 2457 (Trang 3), Kế hoạch 1363 (Trang 3).",
+    "tag": "AcademicRecordAdmission"
+  },
+  {
+    "questions": [
+      "Thí sinh xét tuyển ngành có môn năng khiếu cần làm gì?",
+      "Quy trình đăng ký thi năng khiếu cho các ngành Sư phạm Âm nhạc, Giáo dục Mầm non, Giáo dục Thể chất, Sư phạm Mỹ thuật là gì?"
+    ],
+    "answer": "Thí sinh đăng ký thi môn năng khiếu theo hướng dẫn của Trường Đại học Sư phạm - Đại học Đà Nẵng, nộp hồ sơ trước thời hạn quy định (kiểm tra http://ued.udn.vn). Kết quả thi năng khiếu được sử dụng trong tổ hợp xét tuyển. Nguồn: Thông tin tuyển sinh 2025.",
+    "tag": "AptitudeTestProcess"
+  },
+  {
+    "questions": [
+      "Sinh viên cần nộp các khoản phí nào ngoài học phí?",
+      "Hậu quả của việc không nộp học phí đúng hạn là gì?"
+    ],
+    "answer": "Ngoài học phí, sinh viên nộp phí bảo hiểm y tế, phí đoàn thể, phí sử dụng cơ sở vật chất, phí thi lại/học lại (nếu có). Sinh viên ở KTX nộp nội trú phí, tiền điện nước, và tiền thế chấp tài sản. Học phí kỳ II 2024-2025 nộp qua 4 đợt (03/01-10/01, 06/02-14/02, 03/03-11/03, 01/04-10/04/2025). Không nộp đúng hạn sẽ bị xử lý theo quy định. Kiểm tra http://ued.udn.vn. Nguồn: Thông báo 004/4/TB-ĐHSP.",
+    "tag": "AdditionalCosts"
+  },
+  {
+    "questions": [
+      "Chính sách học bổng tại Trường Đại học Sư phạm - Đại học Đà Nẵng là gì?",
+      "Sinh viên yếu thế có được hỗ trợ học bổng không?"
+    ],
+    "answer": "Trường Đại học Sư phạm - Đại học Đà Nẵng cung cấp học bổng khuyến khích học tập cho sinh viên có thành tích học tập xuất sắc và học bổng hỗ trợ cho sinh viên yếu thế (tàn tật, mồ côi, dân tộc thiểu số nghèo). Sinh viên nộp giấy tờ chứng minh (giấy xác nhận hộ nghèo, chứng nhận khuyết tật) cho Phòng CTSV để xét duyệt. Mức học bổng và thời gian xét tùy theo thông báo hàng năm. Kiểm tra http://ued.udn.vn. Nguồn: Thông tin tuyển sinh 2025.",
+    "tag": "ScholarshipSupport"
+  },
+  {
+    "questions": [
+      "Phương thức xét tuyển của Trường Đại học Sư phạm - Đại học Đà Nẵng năm 2025 là gì?",
+      "Thí sinh cần chuẩn bị gì cho các phương thức xét tuyển?"
+    ],
+    "answer": "Trường Đại học Sư phạm - Đại học Đà Nẵng sử dụng các phương thức xét tuyển: xét điểm thi THPT, xét học bạ, xét tuyển thẳng, và xét tuyển dựa trên chứng chỉ quốc tế hoặc môn năng khiếu (cho các ngành như Sư phạm Âm nhạc, Giáo dục Mầm non). Thí sinh chuẩn bị hồ sơ theo từng phương thức, đăng ký trên Hệ thống http://thisinh.thitotnghiepthpt.edu.vn trước 17h ngày 28/7/2025, và nộp chứng chỉ/hồ sơ bổ sung nếu cần. Kiểm tra http://ued.udn.vn. Nguồn: Thông tin tuyển sinh 2025.",
+    "tag": "AdmissionMethods"
+  },
+  {
+    "questions": [
+      "Quy trình quy đổi điểm trúng tuyển giữa các phương thức xét tuyển là gì?",
+      "Thí sinh sử dụng chứng chỉ ngoại ngữ để xét tuyển cần lưu ý gì?"
+    ],
+    "answer": "Quy đổi điểm trúng tuyển dựa trên nguyên tắc công bằng, minh bạch, sử dụng phương pháp bách phân vị để đảm bảo thứ hạng thí sinh, công bố cùng ngưỡng đảm bảo chất lượng. Thí sinh dùng chứng chỉ ngoại ngữ phải nộp chứng chỉ hoặc khai báo trên Hệ thống trước 17h ngày 28/7/2025; điểm quy đổi không vượt 50% trọng số tổ hợp xét tuyển. Nguồn: Hướng dẫn 2457 (Trang 7-8).",
+    "tag": "ScoreConversion"
+  },
+  {
+    "questions": [
+      "Kế hoạch tuyển sinh 2025 yêu cầu gì đối với cơ sở đào tạo và Sở Giáo dục?",
+      "Mục đích của Kế hoạch tuyển sinh 2025 là gì?"
+    ],
+    "answer": "Cơ sở đào tạo xây dựng kế hoạch tuyển sinh minh bạch, công khai thông tin (mã trường, chỉ tiêu, tổ hợp xét tuyển) trước 30/6/2025, chịu trách nhiệm giải trình. Sở Giáo dục chỉ đạo trường phổ thông, kiểm tra, báo cáo, thanh tra, và lập Ban chỉ đạo hỗ trợ tuyển sinh trước 30/5/2025. Kế hoạch nhằm đảm bảo tuyển sinh đồng bộ, công bằng, tạo thuận lợi cho thí sinh. Nguồn: Kế hoạch 1363 (Trang 1-3).",
+    "tag": "RecruitmentPlan"
+  },
+  {
+    "questions": [
+      "Sinh viên ở KTX có quyền lợi và nghĩa vụ gì?",
+      "KTX tổ chức các hoạt động văn hóa, thể thao nào cho sinh viên?"
+    ],
+    "answer": "Quyền lợi: Sinh viên sử dụng phòng ở, thiết bị, tham gia hoạt động văn hóa, thể thao, yêu cầu sửa chữa hư hỏng. Nghĩa vụ: Nộp phí đúng hạn, tuân thủ nội quy, bảo quản tài sản, bồi thường thiệt hại. KTX tổ chức các hoạt động văn hóa, văn nghệ, thể dục thể thao, phong trào xã hội do Phòng CTSV phối hợp thực hiện. Sinh viên được khuyến khích tham gia nhưng phải tuân thủ quy định. Nguồn: Quyết định 1042/QĐ-ĐHSP, Điều 6-8.",
+    "tag": "KTXStudentLife"
+  }
+]

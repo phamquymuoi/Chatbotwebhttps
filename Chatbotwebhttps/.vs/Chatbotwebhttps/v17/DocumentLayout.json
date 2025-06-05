@@ -1,0 +1,216 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\PC\\Downloads\\Ued_TVTS\\chatbox\\Chatbotwebhttpsv7\\Chatbotwebhttps\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{69B37AAD-7534-4338-92BB-18B67A340C81}|Chatbotwebhttps.csproj|c:\\users\\pc\\downloads\\ued_tvts\\chatbox\\chatbotwebhttpsv7\\chatbotwebhttps\\components\\pages\\about.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{69B37AAD-7534-4338-92BB-18B67A340C81}|Chatbotwebhttps.csproj|solutionrelative:components\\pages\\about.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{69B37AAD-7534-4338-92BB-18B67A340C81}|Chatbotwebhttps.csproj|c:\\users\\pc\\downloads\\ued_tvts\\chatbox\\chatbotwebhttpsv7\\chatbotwebhttps\\components\\pages\\home.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{69B37AAD-7534-4338-92BB-18B67A340C81}|Chatbotwebhttps.csproj|solutionrelative:components\\pages\\home.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{69B37AAD-7534-4338-92BB-18B67A340C81}|Chatbotwebhttps.csproj|c:\\users\\pc\\downloads\\ued_tvts\\chatbox\\chatbotwebhttpsv7\\chatbotwebhttps\\components\\layout\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{69B37AAD-7534-4338-92BB-18B67A340C81}|Chatbotwebhttps.csproj|solutionrelative:components\\layout\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{69B37AAD-7534-4338-92BB-18B67A340C81}|Chatbotwebhttps.csproj|c:\\users\\pc\\downloads\\ued_tvts\\chatbox\\chatbotwebhttpsv7\\chatbotwebhttps\\components\\layout\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{69B37AAD-7534-4338-92BB-18B67A340C81}|Chatbotwebhttps.csproj|solutionrelative:components\\layout\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{69B37AAD-7534-4338-92BB-18B67A340C81}|Chatbotwebhttps.csproj|c:\\users\\pc\\downloads\\ued_tvts\\chatbox\\chatbotwebhttpsv7\\chatbotwebhttps\\components\\pages\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{69B37AAD-7534-4338-92BB-18B67A340C81}|Chatbotwebhttps.csproj|solutionrelative:components\\pages\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{69B37AAD-7534-4338-92BB-18B67A340C81}|Chatbotwebhttps.csproj|c:\\users\\pc\\downloads\\ued_tvts\\chatbox\\chatbotwebhttpsv7\\chatbotwebhttps\\components\\pages\\error.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{69B37AAD-7534-4338-92BB-18B67A340C81}|Chatbotwebhttps.csproj|solutionrelative:components\\pages\\error.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{69B37AAD-7534-4338-92BB-18B67A340C81}|Chatbotwebhttps.csproj|c:\\users\\pc\\downloads\\ued_tvts\\chatbox\\chatbotwebhttpsv7\\chatbotwebhttps\\components\\app.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{69B37AAD-7534-4338-92BB-18B67A340C81}|Chatbotwebhttps.csproj|solutionrelative:components\\app.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{69B37AAD-7534-4338-92BB-18B67A340C81}|Chatbotwebhttps.csproj|c:\\users\\pc\\downloads\\ued_tvts\\chatbox\\chatbotwebhttpsv7\\chatbotwebhttps\\components\\_imports.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{69B37AAD-7534-4338-92BB-18B67A340C81}|Chatbotwebhttps.csproj|solutionrelative:components\\_imports.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{69B37AAD-7534-4338-92BB-18B67A340C81}|Chatbotwebhttps.csproj|c:\\users\\pc\\downloads\\ued_tvts\\chatbox\\chatbotwebhttpsv7\\chatbotwebhttps\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{69B37AAD-7534-4338-92BB-18B67A340C81}|Chatbotwebhttps.csproj|solutionrelative:appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{69B37AAD-7534-4338-92BB-18B67A340C81}|Chatbotwebhttps.csproj|c:\\users\\pc\\downloads\\ued_tvts\\chatbox\\chatbotwebhttpsv7\\chatbotwebhttps\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{69B37AAD-7534-4338-92BB-18B67A340C81}|Chatbotwebhttps.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{69B37AAD-7534-4338-92BB-18B67A340C81}|Chatbotwebhttps.csproj|c:\\users\\pc\\downloads\\ued_tvts\\chatbox\\chatbotwebhttpsv7\\chatbotwebhttps\\wwwroot\\app.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{69B37AAD-7534-4338-92BB-18B67A340C81}|Chatbotwebhttps.csproj|solutionrelative:wwwroot\\app.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{69B37AAD-7534-4338-92BB-18B67A340C81}|Chatbotwebhttps.csproj|c:\\users\\pc\\downloads\\ued_tvts\\chatbox\\chatbotwebhttpsv7\\chatbotwebhttps\\wwwroot\\bootstrap\\bootstrap.min.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{69B37AAD-7534-4338-92BB-18B67A340C81}|Chatbotwebhttps.csproj|solutionrelative:wwwroot\\bootstrap\\bootstrap.min.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "NavMenu.razor",
+              "DocumentMoniker": "C:\\Users\\PC\\Downloads\\Ued_TVTS\\chatbox\\Chatbotwebhttpsv7\\Chatbotwebhttps\\Components\\Layout\\NavMenu.razor",
+              "RelativeDocumentMoniker": "Components\\Layout\\NavMenu.razor",
+              "ToolTip": "C:\\Users\\PC\\Downloads\\Ued_TVTS\\chatbox\\Chatbotwebhttpsv7\\Chatbotwebhttps\\Components\\Layout\\NavMenu.razor",
+              "RelativeToolTip": "Components\\Layout\\NavMenu.razor",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAAgAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-04T01:01:04.299Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Home.razor",
+              "DocumentMoniker": "C:\\Users\\PC\\Downloads\\Ued_TVTS\\chatbox\\Chatbotwebhttpsv7\\Chatbotwebhttps\\Components\\Pages\\Home.razor",
+              "RelativeDocumentMoniker": "Components\\Pages\\Home.razor",
+              "ToolTip": "C:\\Users\\PC\\Downloads\\Ued_TVTS\\chatbox\\Chatbotwebhttpsv7\\Chatbotwebhttps\\Components\\Pages\\Home.razor",
+              "RelativeToolTip": "Components\\Pages\\Home.razor",
+              "ViewState": "AQIAAEQAAAAAAAAAAAAqwFYAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-05T00:10:47.289Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "About.razor",
+              "DocumentMoniker": "C:\\Users\\PC\\Downloads\\Ued_TVTS\\chatbox\\Chatbotwebhttpsv7\\Chatbotwebhttps\\Components\\Pages\\About.razor",
+              "RelativeDocumentMoniker": "Components\\Pages\\About.razor",
+              "ToolTip": "C:\\Users\\PC\\Downloads\\Ued_TVTS\\chatbox\\Chatbotwebhttpsv7\\Chatbotwebhttps\\Components\\Pages\\About.razor",
+              "RelativeToolTip": "Components\\Pages\\About.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAABfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-05T00:06:28.688Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MainLayout.razor",
+              "DocumentMoniker": "C:\\Users\\PC\\Downloads\\Ued_TVTS\\chatbox\\Chatbotwebhttpsv7\\Chatbotwebhttps\\Components\\Layout\\MainLayout.razor",
+              "RelativeDocumentMoniker": "Components\\Layout\\MainLayout.razor",
+              "ToolTip": "C:\\Users\\PC\\Downloads\\Ued_TVTS\\chatbox\\Chatbotwebhttpsv7\\Chatbotwebhttps\\Components\\Layout\\MainLayout.razor",
+              "RelativeToolTip": "Components\\Layout\\MainLayout.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAA2AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-04T23:57:01.32Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\PC\\Downloads\\Ued_TVTS\\chatbox\\Chatbotwebhttpsv7\\Chatbotwebhttps\\Components\\Pages\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Components\\Pages\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\PC\\Downloads\\Ued_TVTS\\chatbox\\Chatbotwebhttpsv7\\Chatbotwebhttps\\Components\\Pages\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Components\\Pages\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAPAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-04T23:54:59.584Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Error.razor",
+              "DocumentMoniker": "C:\\Users\\PC\\Downloads\\Ued_TVTS\\chatbox\\Chatbotwebhttpsv7\\Chatbotwebhttps\\Components\\Pages\\Error.razor",
+              "RelativeDocumentMoniker": "Components\\Pages\\Error.razor",
+              "ToolTip": "C:\\Users\\PC\\Downloads\\Ued_TVTS\\chatbox\\Chatbotwebhttpsv7\\Chatbotwebhttps\\Components\\Pages\\Error.razor",
+              "RelativeToolTip": "Components\\Pages\\Error.razor",
+              "ViewState": "AQIAABIAAAAAAAAAAAAmwCQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-04T23:54:43.601Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "App.razor",
+              "DocumentMoniker": "C:\\Users\\PC\\Downloads\\Ued_TVTS\\chatbox\\Chatbotwebhttpsv7\\Chatbotwebhttps\\Components\\App.razor",
+              "RelativeDocumentMoniker": "Components\\App.razor",
+              "ToolTip": "C:\\Users\\PC\\Downloads\\Ued_TVTS\\chatbox\\Chatbotwebhttpsv7\\Chatbotwebhttps\\Components\\App.razor",
+              "RelativeToolTip": "Components\\App.razor",
+              "ViewState": "AQIAAAIAAAAAAAAAAAAmwBQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-04T23:54:27.143Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "_Imports.razor",
+              "DocumentMoniker": "C:\\Users\\PC\\Downloads\\Ued_TVTS\\chatbox\\Chatbotwebhttpsv7\\Chatbotwebhttps\\Components\\_Imports.razor",
+              "RelativeDocumentMoniker": "Components\\_Imports.razor",
+              "ToolTip": "C:\\Users\\PC\\Downloads\\Ued_TVTS\\chatbox\\Chatbotwebhttpsv7\\Chatbotwebhttps\\Components\\_Imports.razor",
+              "RelativeToolTip": "Components\\_Imports.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-04T23:54:05.101Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\Downloads\\Ued_TVTS\\chatbox\\Chatbotwebhttpsv7\\Chatbotwebhttps\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\PC\\Downloads\\Ued_TVTS\\chatbox\\Chatbotwebhttpsv7\\Chatbotwebhttps\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-04T23:53:19.44Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "app.css",
+              "DocumentMoniker": "C:\\Users\\PC\\Downloads\\Ued_TVTS\\chatbox\\Chatbotwebhttpsv7\\Chatbotwebhttps\\wwwroot\\app.css",
+              "RelativeDocumentMoniker": "wwwroot\\app.css",
+              "ToolTip": "C:\\Users\\PC\\Downloads\\Ued_TVTS\\chatbox\\Chatbotwebhttpsv7\\Chatbotwebhttps\\wwwroot\\app.css",
+              "RelativeToolTip": "wwwroot\\app.css",
+              "ViewState": "AQIAAAUAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-06-04T23:48:08.658Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "bootstrap.min.css",
+              "DocumentMoniker": "C:\\Users\\PC\\Downloads\\Ued_TVTS\\chatbox\\Chatbotwebhttpsv7\\Chatbotwebhttps\\wwwroot\\bootstrap\\bootstrap.min.css",
+              "RelativeDocumentMoniker": "wwwroot\\bootstrap\\bootstrap.min.css",
+              "ToolTip": "C:\\Users\\PC\\Downloads\\Ued_TVTS\\chatbox\\Chatbotwebhttpsv7\\Chatbotwebhttps\\wwwroot\\bootstrap\\bootstrap.min.css",
+              "RelativeToolTip": "wwwroot\\bootstrap\\bootstrap.min.css",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-06-04T23:47:56.67Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "C:\\Users\\PC\\Downloads\\Ued_TVTS\\chatbox\\Chatbotwebhttpsv7\\Chatbotwebhttps\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "appsettings.Development.json",
+              "ToolTip": "C:\\Users\\PC\\Downloads\\Ued_TVTS\\chatbox\\Chatbotwebhttpsv7\\Chatbotwebhttps\\appsettings.Development.json",
+              "RelativeToolTip": "appsettings.Development.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-06-04T23:47:37.93Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

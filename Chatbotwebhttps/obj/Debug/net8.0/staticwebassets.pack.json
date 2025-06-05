@@ -1,0 +1,49 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\PC\\Downloads\\Ued_TVTS\\chatbox\\Chatbotwebhttpsv7\\Chatbotwebhttps\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\Chatbotwebhttps.bundle.scp.css",
+      "PackagePath": "staticwebassets\\Chatbotwebhttps.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Downloads\\Ued_TVTS\\chatbox\\Chatbotwebhttpsv7\\Chatbotwebhttps\\wwwroot\\app.css",
+      "PackagePath": "staticwebassets\\app.css"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Downloads\\Ued_TVTS\\chatbox\\Chatbotwebhttpsv7\\Chatbotwebhttps\\wwwroot\\bootstrap\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\bootstrap\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Downloads\\Ued_TVTS\\chatbox\\Chatbotwebhttpsv7\\Chatbotwebhttps\\wwwroot\\bootstrap\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\bootstrap\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Downloads\\Ued_TVTS\\chatbox\\Chatbotwebhttpsv7\\Chatbotwebhttps\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Downloads\\Ued_TVTS\\chatbox\\Chatbotwebhttpsv7\\Chatbotwebhttps\\wwwroot\\favicon.png",
+      "PackagePath": "staticwebassets\\favicon.png"
+    },
+    {
+      "Id": "C:\\Users\\PC\\Downloads\\Ued_TVTS\\chatbox\\Chatbotwebhttpsv7\\Chatbotwebhttps\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.Chatbotwebhttps.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.Chatbotwebhttps.props",
+      "PackagePath": "build\\Chatbotwebhttps.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.Chatbotwebhttps.props",
+      "PackagePath": "buildMultiTargeting\\Chatbotwebhttps.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.Chatbotwebhttps.props",
+      "PackagePath": "buildTransitive\\Chatbotwebhttps.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
